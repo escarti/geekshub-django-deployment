@@ -28,7 +28,7 @@ spec:
               name: postgres-credentials
         - name: POSTGRES_HOST
           value: postgresql-service
-        image: escarti/geekshub-django:develop_10
+        image: escarti/geekshub-django:develop_11
         name: django
         ports:
         - containerPort: 8000
